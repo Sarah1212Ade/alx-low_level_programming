@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * main - entry point
+ * main - Prints putchar
+ * @void: Empty parameter list for main.
  *
- * Description: using _putchar function
- * this program prints _putchar
- * Return: 0
+ * Description: Prints putchar w/out stdio
+ *
+ * Return: 0 for success
  */
-
 int main(void)
 {
 	_putchar('_');
@@ -18,6 +18,7 @@ int main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
+	_putchar('\n');
 
 	return (0);
 }
