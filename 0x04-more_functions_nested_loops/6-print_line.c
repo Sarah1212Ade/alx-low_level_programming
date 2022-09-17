@@ -18,5 +18,3 @@ _putchar('_');
 }
 _putchar('\n');
 }
-Footer
-
